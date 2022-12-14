@@ -1,7 +1,6 @@
 # DSN_GITHUB
 This is the PyTorch implementation of our paper: <br>
-Multi-Source Domain Adaptation for Object Detection ICCV 2021
-Xingxu Yao, Sicheng Zhao, Pengfei Xu, Jufeng Yang
+Domain specific network for Multi-source domain adaptation 
 
 <p align="center">
 <img src="model.png" width="85%">
