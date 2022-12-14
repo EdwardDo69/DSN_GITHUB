@@ -100,9 +100,9 @@ train_msda_bdd.txt: detail of training process will be saved here
   
   Dataset:
     
-    mskda_bdd for cross time dataset
+  +  mskda_bdd for cross time dataset
     
-    mskda_car for cross camera dataset
+  +  mskda_car for cross camera dataset
   
   path: The path of folder that save the check_point file
   
