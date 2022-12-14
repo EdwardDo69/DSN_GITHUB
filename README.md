@@ -65,10 +65,10 @@ In the train_msda.sh file:
   save_dir: the directory where save the check_point file
   
   dataset: 
+  
+  + mskda_bdd for cross time dataset
     
-    mskda_bdd for cross time dataset
-    
-    mskda_car for cross camera dataset
+  + mskda_car for cross camera dataset
   
   net: backbone net is used: vgg16
   
@@ -82,11 +82,11 @@ In the train_msda.sh file:
   
   train_msda.py: the name of training file:
     
-    train_msda.py: training with hyperparameter same the paper
+  +  train_msda.py: training with hyperparameter same the paper
     
-    train_msda_confidenceloss.py: we change the consistency loss lead the good accuracy
+  +  train_msda_confidenceloss.py: we change the consistency loss lead the good accuracy
     
-    train_msda_strongaug.py:	we train method with strong augmentation lead a good accuracy for cross camera dataset
+  +  train_msda_strongaug.py:	we train method with strong augmentation lead a good accuracy for cross camera dataset
 
 train_msda_bdd.txt: detail of training process will be saved here
 
