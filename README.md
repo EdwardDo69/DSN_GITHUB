@@ -17,6 +17,7 @@ Domain specific network for Multi-source domain adaptation
 
 ## Install python env
 cd DSN_GITHUB/lib
+
 python setup.py build develop
 
 # DATASET
